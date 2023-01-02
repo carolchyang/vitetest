@@ -1,0 +1,28 @@
+{
+  "name": "vite4-demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "pinia": "^2.0.28",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier-eslint": "^15.0.1",
+    "sass": "^1.57.1",
+    "vite": "^4.0.0"
+  }
+}
